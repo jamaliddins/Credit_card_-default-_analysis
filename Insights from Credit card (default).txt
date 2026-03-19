@@ -1,0 +1,13 @@
+Insights from Credit card (default)
+
+1. Testing the first hypothesis: "Does High utilization increase default?"
+
+The answer: Yes. It was proved by the Welch's t-test. Both of its values the t-test (higher than 15) and the p-value (lower than 0.05), lead to a result.
+
+2. Testing the second hypothesis: "Does increasing the delay trend lead to more defaults?"
+
+The answer: Yes. It was proved by the Pearson correlation test. The p-value is significantly less than 0.05, and the r-value is negative. So, it meant that a worsening delay trend causes fewer defaults (counterintuitive)
+
+3. Testing the third hypothesis: "Does Volatility differ by default groups?"
+
+The answer: Yes. It was also proved by the Welch's t-test. The statistical t is negative, while the p-value supports the H1 hypothesis. As a result, the defaulters have significantly lower bill volatility.
