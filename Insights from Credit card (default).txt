@@ -1,13 +1,15 @@
-Insights from Credit card (default)
+Key Insights
+1. Credit Utilization and Default Risk
 
-1. Testing the first hypothesis: "Does High utilization increase default?"
+High credit utilization is strongly associated with increased default probability.
+This was confirmed using Welch’s t-test (p-value < 0.05), indicating a statistically significant difference between groups.
 
-The answer: Yes. It was proved by the Welch's t-test. Both of its values the t-test (higher than 15) and the p-value (lower than 0.05), lead to a result.
+2. Payment Delay Trends
 
-2. Testing the second hypothesis: "Does increasing the delay trend lead to more defaults?"
+A significant relationship was found between repayment delay trends and default behavior (Pearson correlation, p-value < 0.05).
+Interestingly, the negative correlation suggests a non-linear or counterintuitive relationship that may require deeper segmentation analysis.
 
-The answer: Yes. It was proved by the Pearson correlation test. The p-value is significantly less than 0.05, and the r-value is negative. So, it meant that a worsening delay trend causes fewer defaults (counterintuitive)
+3. Bill Amount Volatility
 
-3. Testing the third hypothesis: "Does Volatility differ by default groups?"
-
-The answer: Yes. It was also proved by the Welch's t-test. The statistical t is negative, while the p-value supports the H1 hypothesis. As a result, the defaulters have significantly lower bill volatility.
+Defaulting customers exhibit lower bill volatility compared to non-defaulters.
+This difference is statistically significant based on Welch’s t-test, suggesting more stable but potentially constrained spending behavior among defaulters.
